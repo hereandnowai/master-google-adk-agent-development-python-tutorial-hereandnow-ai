@@ -1,0 +1,9 @@
+google-adk==0.1.0
+requests
+langchain
+wikipedia
+stackapi
+PyGithub
+matplotlib
+numpy
+faiss-cpu
