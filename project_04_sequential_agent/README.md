@@ -20,9 +20,19 @@ This project introduces the concept of a sequential workflow in ADK. A sequentia
 
 2.  **Run the script:**
 
-    ```bash
-    python project_04_sequential_agent.py
-    ```
+    # 1. Go to your projects directory
+    cd ~/Documents/Projects
+
+    # 2. Create the project
+    adk create app MyChatAgent
+
+    # (The ADK might ask you some questions here, like the agent type)
+
+    # 3. Go into the project directory
+    cd MyChatAgent
+
+    # 5. Run the agent
+    adk run app
 
 3.  **Interact with the agent:**
 

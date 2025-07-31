@@ -15,14 +15,24 @@ This project is the "Hello, World!" of the Google ADK. It demonstrates the basic
 1.  **Install the necessary libraries:**
 
     ```bash
-    pip install google-adk==0.1.0
+    pip install google-adk
     ```
 
 2.  **Run the script:**
 
-    ```bash
-    python project_01_hello_agent.py
-    ```
+    # 1. Go to your projects directory
+    cd ~/Documents/Projects
+
+    # 2. Create the project
+    adk create app MyChatAgent
+
+    # (The ADK might ask you some questions here, like the agent type)
+
+    # 3. Go into the project directory
+    cd MyChatAgent
+
+    # 5. Run the agent
+    adk run app
 
 3.  **Expected Output:**
 
